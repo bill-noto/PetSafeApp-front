@@ -190,17 +190,17 @@
       <div class="w-2/4 sm:w-full sm:mt-12">
         <h1 class="text-center font-bold text-2xl sm:text-xl pb-6">WHAT TO EXPECT</h1>
         <dl class="w-full text-center">
-          <dt class="border-primary border mb-1 p-1.5 cursor-pointer font-semibold">DOG WALKING</dt>
+          <dt class="border-primary border mb-1 p-1.5 font-semibold">DOG WALKING</dt>
           <dd class="p-1.5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae ullam odit
             aliquid, non qui animi quis. Neque eveniet nihil optio debitis, officia, nemo molestias,
             necessitatibus saepe dicta ullam hic perspiciatis!
           </dd>
-          <dt class="border-primary border my-1 p-1.5 cursor-pointer font-semibold">GROOMING</dt>
+          <dt class="border-primary border my-1 p-1.5 font-semibold">GROOMING</dt>
           <dd class="p-1.5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae ullam odit
             aliquid, non qui animi quis. Neque eveniet nihil optio debitis, officia, nemo molestias,
             necessitatibus saepe dicta ullam hic perspiciatis!
           </dd>
-          <dt class="border-primary border mt-1 p-1.5 cursor-pointer font-semibold">DOG BOARDING</dt>
+          <dt class="border-primary border mt-1 p-1.5 font-semibold">DOG BOARDING</dt>
           <dd class="p-1.5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae ullam odit
             aliquid, non qui animi quis. Neque eveniet nihil optio debitis, officia, nemo molestias,
             necessitatibus saepe dicta ullam hic perspiciatis!
