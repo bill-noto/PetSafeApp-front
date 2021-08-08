@@ -216,7 +216,7 @@
               </router-link>
             </li>
             <li class="pt-1.5 sm:pt-2.5 sm:text-center"><a
-                class="sm:underline hover:underline" href="http://cl-phpapp.test">Login/Register</a></li>
+                class="sm:underline hover:underline" href="http://fp-petsafeapp-back.test">Login/Register</a></li>
           </ul>
         </div>
         <div class="w-1/3 sm:w-full my-4 sm:my-6 md:mr-12 lg:mr-12">
@@ -264,17 +264,9 @@ export default {
       var modal = document.getElementById('modal').classList;
       var overlay = document.getElementById('overlay').classList;
       if (action === 'show') {
-        modal.remove('fadeOut');
-        overlay.remove('fadeOut');
         modal.remove('hidden');
         overlay.remove('hidden');
-        modal.add('fadeIn');
-        overlay.add('fadeIn');
       } else if (action === 'hide') {
-        modal.remove('fadeIn');
-        overlay.remove('fadeIn');
-        modal.add('fadeOut');
-        overlay.add('fadeOut');
         modal.add('hidden');
         overlay.add('hidden');
       }

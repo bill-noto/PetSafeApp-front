@@ -310,17 +310,9 @@ export default {
       var modal = document.getElementById('modal').classList;
       var overlay = document.getElementById('overlay').classList;
       if (action === 'show') {
-        modal.remove('fadeOut');
-        overlay.remove('fadeOut');
         modal.remove('hidden');
         overlay.remove('hidden');
-        modal.add('fadeIn');
-        overlay.add('fadeIn');
       } else if (action === 'hide') {
-        modal.remove('fadeIn');
-        overlay.remove('fadeIn ');
-        modal.add('fadeOut');
-        overlay.add('fadeOut');
         modal.add('hidden');
         overlay.add('hidden');
       }

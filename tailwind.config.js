@@ -19,20 +19,6 @@ module.exports = {
                 'md': {'min': '530px', 'max': '719px'},
                 'lg': {'min': '720px', 'max': '919px'},
                 'xl': {'min': '920px', 'max': '100vw'},
-            },
-            keyframes: {
-                'fadeIn': {
-                    'from': {opacity: 0},
-                    'to': {opacity: 1}
-                },
-                'fadeOut': {
-                    'from': {opacity: 1},
-                    'to': {opacity: 0}
-                }
-            },
-            animation: {
-                'fadeIn': 'fadeIn 1s ease-in-out forwards',
-                'fadeOut': 'fadeOut 1s ease-in-out forwards'
             }
         },
     },

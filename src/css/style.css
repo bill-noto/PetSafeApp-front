@@ -9984,46 +9984,6 @@ video {
   }
 }
 
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
-}
-
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
-}
-
 .animate-none {
   -webkit-animation: none;
           animation: none;
@@ -10047,16 +10007,6 @@ video {
 .animate-bounce {
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
-}
-
-.animate-fadeIn {
-  -webkit-animation: fadeIn 1s ease-in-out forwards;
-          animation: fadeIn 1s ease-in-out forwards;
-}
-
-.animate-fadeOut {
-  -webkit-animation: fadeOut 1s ease-in-out forwards;
-          animation: fadeOut 1s ease-in-out forwards;
 }
 
 .cursor-auto {
@@ -42190,16 +42140,6 @@ footer {
             animation: bounce 1s infinite;
   }
 
-  .sm\:animate-fadeIn {
-    -webkit-animation: fadeIn 1s ease-in-out forwards;
-            animation: fadeIn 1s ease-in-out forwards;
-  }
-
-  .sm\:animate-fadeOut {
-    -webkit-animation: fadeOut 1s ease-in-out forwards;
-            animation: fadeOut 1s ease-in-out forwards;
-  }
-
   .sm\:cursor-auto {
     cursor: auto;
   }
@@ -73937,16 +73877,6 @@ footer {
   .md\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
-  }
-
-  .md\:animate-fadeIn {
-    -webkit-animation: fadeIn 1s ease-in-out forwards;
-            animation: fadeIn 1s ease-in-out forwards;
-  }
-
-  .md\:animate-fadeOut {
-    -webkit-animation: fadeOut 1s ease-in-out forwards;
-            animation: fadeOut 1s ease-in-out forwards;
   }
 
   .md\:cursor-auto {
@@ -105688,16 +105618,6 @@ footer {
             animation: bounce 1s infinite;
   }
 
-  .lg\:animate-fadeIn {
-    -webkit-animation: fadeIn 1s ease-in-out forwards;
-            animation: fadeIn 1s ease-in-out forwards;
-  }
-
-  .lg\:animate-fadeOut {
-    -webkit-animation: fadeOut 1s ease-in-out forwards;
-            animation: fadeOut 1s ease-in-out forwards;
-  }
-
   .lg\:cursor-auto {
     cursor: auto;
   }
@@ -137437,16 +137357,6 @@ footer {
             animation: bounce 1s infinite;
   }
 
-  .xl\:animate-fadeIn {
-    -webkit-animation: fadeIn 1s ease-in-out forwards;
-            animation: fadeIn 1s ease-in-out forwards;
-  }
-
-  .xl\:animate-fadeOut {
-    -webkit-animation: fadeOut 1s ease-in-out forwards;
-            animation: fadeOut 1s ease-in-out forwards;
-  }
-
   .xl\:cursor-auto {
     cursor: auto;
   }
@@ -169184,16 +169094,6 @@ footer {
   .\32xl\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
-  }
-
-  .\32xl\:animate-fadeIn {
-    -webkit-animation: fadeIn 1s ease-in-out forwards;
-            animation: fadeIn 1s ease-in-out forwards;
-  }
-
-  .\32xl\:animate-fadeOut {
-    -webkit-animation: fadeOut 1s ease-in-out forwards;
-            animation: fadeOut 1s ease-in-out forwards;
   }
 
   .\32xl\:cursor-auto {

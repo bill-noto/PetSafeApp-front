@@ -68,13 +68,12 @@
 
   <div v-for="post in posts" :key="post">
     <div class="xl:w-4/5 xl:mx-auto">
-      <div class="text-center my-10 mx-8">
+      <div class="text-center my-20 mx-8">
         <h1 class="text-2xl sm:text-xl font-bold">{{ post.title }}</h1>
-        <h2 class="text-xl sm:text-xl font-bold">{{ post.author }}, {{ post.date }}</h2>
+        <h2 class="text-xl sm:text-xl font-bold">{{ post.author }}, {{ post.create_time }}</h2>
         <p class="mt-4 w-4/5 mx-auto sm:text-sm">{{ post.body }}</p>
       </div>
     </div>
-    <hr v-if="post.line == true" class="my-10 mx-8 border-black">
   </div>
 
   <!-- FOOTER -->
@@ -109,7 +108,7 @@
               </router-link>
             </li>
             <li class="pt-1.5 sm:pt-2.5 sm:text-center"><a
-                class="sm:underline hover:underline" href="http://cl-phpapp.test">Login/Register</a></li>
+                class="sm:underline hover:underline" href="http://fp-petsafeapp-back.test">Login/Register</a></li>
           </ul>
         </div>
         <div class="w-1/3 sm:w-full my-4 sm:my-6 md:mr-12 lg:mr-12">
@@ -153,10 +152,9 @@ export default {
     }
   },
   mounted() {
-    axios.get('https://api.npoint.io/0b5e7ba45e10a7661fce')
+    axios.get('http://fp-petsafeapp-back.test/api/posts')
         .then(response => {
-          this.posts = response.data.posts;
-          this.posts[this.posts.length - 1].line = false;
+          this.posts = response.data;
         })
     var date = new Date();
     this.date = date.getFullYear();
